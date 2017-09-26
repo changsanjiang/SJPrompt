@@ -1,2 +1,4 @@
 # SJPrompt
 prompt
+
+pod 'SJPrompt'
