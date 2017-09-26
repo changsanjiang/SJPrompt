@@ -1,4 +1,4 @@
 # SJPrompt
 prompt
 
-pod 'SJPrompt'
+pod 'SJPrompt'     ($ pod update --no-repo-update )
