@@ -99,7 +99,6 @@
         make.center.equalTo(_presentView);
         make.size.mas_offset(CGSizeMake(width + 24, SJPrompt_H));
     }];
-    _backgroundView.transform = _presentView.transform;
     _promptLabel.text = title;
     [self _show];
     [_hiddenPromptTimer invalidate];
