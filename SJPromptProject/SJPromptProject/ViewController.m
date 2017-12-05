@@ -26,7 +26,7 @@
 }
 
 - (IBAction)clickedShow:(id)sender {
-    [self.prompt showTitle:@"天行健, 君子以自强不息" duration:3];
+    [self.prompt showTitle:@"天行健, 君子以自强不息" duration:-1];
 }
 
 
