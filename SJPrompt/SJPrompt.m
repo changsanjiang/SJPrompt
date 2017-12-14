@@ -31,7 +31,7 @@
 - (instancetype)initWithPresentView:(__weak UIView *)presentView {
     self = [super init];
     if ( !self ) return self;
-    NSAssert(_presentView, @"presentView can not be empty!");
+    NSAssert(presentView, @"presentView can not be empty!");
     _presentView = presentView;
     [self _setupView];
     self.update(^(SJPromptConfig * _Nonnull config) {/**/});
