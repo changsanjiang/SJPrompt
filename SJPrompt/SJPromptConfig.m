@@ -13,11 +13,16 @@
 - (instancetype)init {
     self = [super init];
     if ( !self ) return nil;
+    [self reset];
+    return self;
+}
+
+- (void)reset {
     _insets = UIEdgeInsetsMake(8, 8, 8, 8);
     _cornerRadius = 8.0;
     _backgroundColor = [UIColor blackColor];
     _font = [UIFont systemFontOfSize:14];
     _fontColor = [UIColor whiteColor];
-    return self;
 }
+
 @end

@@ -54,6 +54,10 @@
     };
 }
 
+- (void)reset {
+    [self.config reset];
+}
+
 - (void)showTitle:(NSString *)title duration:(NSTimeInterval)duration {
     if ( !_presentView ) return;
     CGFloat maxWdith = 0 != self.config.maxWidth ? self.config.maxWidth : _presentView.frame.size.width * 0.6;

@@ -22,6 +22,9 @@ NS_ASSUME_NONNULL_BEGIN
 /// update config.
 @property (nonatomic, strong, readonly) void(^update)(void(^block)(SJPromptConfig *config));
 
+/// reset config.
+- (void)reset;
+
 /*!
  *  duration if value set -1. promptView will always show.
  *

@@ -30,6 +30,8 @@ NS_ASSUME_NONNULL_BEGIN
 /// default is ( superview.width * 0.6 ).
 @property (nonatomic, assign) CGFloat maxWidth;
 
+- (void)reset;
+
 @end
 
 NS_ASSUME_NONNULL_END
