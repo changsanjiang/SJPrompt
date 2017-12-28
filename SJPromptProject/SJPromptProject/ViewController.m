@@ -26,8 +26,8 @@
     self.prompt.update(^(SJPromptConfig * _Nonnull config) {
         config.font = [UIFont systemFontOfSize:12];
         config.backgroundColor = [UIColor orangeColor];
-        config.insets = UIEdgeInsetsMake(20, 20, 20, 20);
-        config.maxWidth = 60;
+        config.insets = UIEdgeInsetsMake(8, 8, 8, 8);
+        config.maxWidth = 200;
     });
     
     // Do any additional setup after loading the view, typically from a nib.

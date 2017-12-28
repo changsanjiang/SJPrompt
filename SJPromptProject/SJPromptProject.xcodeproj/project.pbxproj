@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7754FF801FF5344200D5B167 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7754FF7F1FF5344200D5B167 /* README.md */; };
+		7754FF821FF534E300D5B167 /* ex2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7754FF811FF534E300D5B167 /* ex2.gif */; };
 		775A7BBF1FD6569A00BE1EE2 /* SJPrompt.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 775A7BBE1FD6569900BE1EE2 /* SJPrompt.podspec */; };
 		776BF5E41FE290DC0081CD9B /* SJPromptConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 776BF5E31FE290DC0081CD9B /* SJPromptConfig.m */; };
 		778FDC0E1F7A056300F294E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 778FDC0D1F7A056300F294E6 /* AppDelegate.m */; };
@@ -22,6 +24,8 @@
 /* Begin PBXFileReference section */
 		4643DEC6701FC17BF1EFCB90 /* Pods-SJPromptProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SJPromptProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-SJPromptProject/Pods-SJPromptProject.release.xcconfig"; sourceTree = "<group>"; };
 		5B4E3CDC196CC2712CFE5B47 /* Pods-SJPromptProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SJPromptProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SJPromptProject/Pods-SJPromptProject.debug.xcconfig"; sourceTree = "<group>"; };
+		7754FF7F1FF5344200D5B167 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7754FF811FF534E300D5B167 /* ex2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ex2.gif; sourceTree = "<group>"; };
 		775A7BBE1FD6569900BE1EE2 /* SJPrompt.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = SJPrompt.podspec; path = ../SJPrompt.podspec; sourceTree = "<group>"; };
 		776BF5E21FE290DC0081CD9B /* SJPromptConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SJPromptConfig.h; sourceTree = "<group>"; };
 		776BF5E31FE290DC0081CD9B /* SJPromptConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJPromptConfig.m; sourceTree = "<group>"; };
@@ -63,6 +67,7 @@
 		776BF5E11FE290640081CD9B /* Asset */ = {
 			isa = PBXGroup;
 			children = (
+				7754FF811FF534E300D5B167 /* ex2.gif */,
 				778FDC121F7A056300F294E6 /* Main.storyboard */,
 				778FDC151F7A056300F294E6 /* Assets.xcassets */,
 				778FDC171F7A056300F294E6 /* LaunchScreen.storyboard */,
@@ -76,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				775A7BBE1FD6569900BE1EE2 /* SJPrompt.podspec */,
+				7754FF7F1FF5344200D5B167 /* README.md */,
 				778FDC0B1F7A056300F294E6 /* SJPromptProject */,
 				778FDC0A1F7A056300F294E6 /* Products */,
 				7AEE0448853AAE492A206D15 /* Pods */,
@@ -186,8 +192,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7754FF821FF534E300D5B167 /* ex2.gif in Resources */,
 				778FDC191F7A056300F294E6 /* LaunchScreen.storyboard in Resources */,
 				778FDC161F7A056300F294E6 /* Assets.xcassets in Resources */,
+				7754FF801FF5344200D5B167 /* README.md in Resources */,
 				778FDC141F7A056300F294E6 /* Main.storyboard in Resources */,
 				775A7BBF1FD6569A00BE1EE2 /* SJPrompt.podspec in Resources */,
 			);
