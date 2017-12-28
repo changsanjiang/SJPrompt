@@ -18,4 +18,4 @@ self.prompt.update(^(SJPromptConfig * _Nonnull config) {
     config.maxWidth = 200;
 });
 ```
-<img src="https://github.com/changsanjiang/SJPromptProject/blob/master/SJVolBrigControlProject/SJPromptProject/ex2.gif" />
+<img src="https://github.com/changsanjiang/SJPrompt/blob/master/SJPromptProject/SJPromptProject/ex2.gif" />
