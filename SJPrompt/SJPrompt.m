@@ -73,7 +73,12 @@
     [self _hidden];
 }
 
+- (void)showAttributedString:(NSAttributedString *)attributedString duration:(NSTimeInterval)duration {
+    [self showAttributedString:attributedString duration:duration hiddenExeBlock:nil];
+}
+
 - (void)showAttributedString:(NSAttributedString *)attributedString duration:(NSTimeInterval)duration hiddenExeBlock:(void(^__nullable)(SJPrompt *prompt))hiddenExeBlock {
+    if ( attributedString.length == 0 ) return;
     dispatch_async(dispatch_get_main_queue(), ^{
         self->_hiddenExeBlock = [hiddenExeBlock copy];
         if ( !self->_presentView ) return;
