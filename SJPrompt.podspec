@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SJPrompt"
-  s.version      = "1.0.4.1"
+  s.version      = "1.0.4.2"
   s.summary      = "current view present prompt."
 
   # This description is used to generate tags and improve search results.
